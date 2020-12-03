@@ -1,0 +1,112 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at https://guides.rubyonrails.org/i18n.html.
+
+te:
+  header:
+    project_1: "ప్రాజెక్ట్ 1"
+    telugu: "తెలుగు"
+    new_student: "కొత్త విద్యార్థి"
+    students_list: "విద్యార్థుల జాబితా"
+    books_list: "పుస్తకాల జాబితా"
+    #live_messages: "ЖИВЫЕ сообщения"
+    home: "హోమ్"
+    sign_out: "సైన్ అవుట్ చేయండి"
+    sign_in: "సైన్ ఇన్ చేయండి"
+    sign_up: "చేరడం"
+    english: "English"
+    telugu: "తెలుగు"
+    Russian: "русский"
+
+  items:
+    items: "అంశాలు"
+    download_as_excel: "ఎక్సెల్ గా డౌన్‌లోడ్ చేయండి"
+    download_as_csv: "CSV గా డౌన్‌లోడ్ చేయండి"
+    download_as_pdf: "PDF గా డౌన్‌లోడ్ చేయండి"
+    upload_from_excel: "ఎక్సెల్ నుండి అప్‌లోడ్ చేయండి"
+    new_item: "కొత్త వస్తువు"
+    name: "పేరు"
+    quantity: "పరిమాణం"
+    editing_item: "అంశాన్ని సవరించడం"
+    forms:
+      name: "పేరు"
+      quantity: "పరిమాణం"
+
+  global:
+    show: "చూపించు"
+    edit: "సవరించండి"
+    destroy: "నాశనం"
+    are_you_sure: "మీరు చెప్పేది నిజమా?"
+    back: "తిరిగి"
+    prohibited_this_item_from_being_saved: "ఈ అంశం సేవ్ చేయకుండా నిషేధించబడింది:"
+    forms:
+      submit: "సమర్పించండి"
+
+  items_imports:
+    import_items_from_excel: "ఎక్సెల్ నుండి వస్తువులను దిగుమతి చేయండి"
+    note_only_spreadsheets: "గమనిక: ఈ అనువర్తనం నుండి గతంలో డౌన్‌లోడ్ చేసిన స్ప్రెడ్‌షీట్‌లను మాత్రమే దిగుమతి చేయండి."
+    requirements: "అవసరాలు"
+    here_you_could: "మీ మోడల్ కోసం మీరు కలిగి ఉన్న ధ్రువీకరణలను ఇక్కడ మీరు జాబితా చేయవచ్చు"
+    that_way_your_user: "ఆ విధంగా మీ వినియోగదారు విజయవంతంగా దిగుమతి చేసుకోవడానికి మంచి అవకాశం ఉంది"
+    select_file: "Вఫైల్ ఎంచుకోండి"
+    import_file: "ఫైల్‌ను దిగుమతి చేయండి"
+    download_sample_excel: "నమూనా ఎక్సెల్ డౌన్‌లోడ్ చేయండి"
+    file: "ఫైల్"
+    errors:
+      prevented_us: "మీ స్ప్రెడ్‌షీట్‌ను దిగుమతి చేయకుండా మమ్మల్ని నిరోధించింది. దయచేసి మీ స్ప్రెడ్‌షీట్‌ను నవీకరించండి మరియు అజిన్ ప్రయత్నించండి."
+
+  students:
+    students: "విద్యార్థులు"
+    first_name: "మొదటి పేరు"
+    last_name: "చివరి పేరు"
+    year_of_birth: "పుట్టిన సంవత్సరం"
+    gender: "లింగం"
+    address: "చిరునామా"
+    fathers_name: "తండ్రి పేరు"
+    mothers_name: "తల్లి పేరు"
+    email: "ఇమెయిల్"
+    editing_student: "విద్యార్థులను సవరించడం"
+    new_student: "కొత్త విద్యార్థి"
+    showing_the_details: "వివరాలు ప్రదర్శన:"
+    errors:
+      prohibited_this_student: "తనను తాను రక్షించుకోవడానికి ఈ శిష్యుడిని నిషేధించాడు:"
+    students_listing:
+      first_name: "మొదటి పేరు"
+      last_name: "చివరి పేరు"
+      year_of_birth: "పుట్టిన సంవత్సరం"
+      gender: "లింగం"
+      address: "చిరునామా"
+      fathers_name: "తండ్రి పేరు"
+      mothers_name: "తల్లి పేరు"
+      email: "ఇమెయిల్"
+
+  search:
+   search: "వెతకండి"
+   search_for: "దాని కోసం వెతుకు:"
