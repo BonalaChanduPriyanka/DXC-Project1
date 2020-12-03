@@ -19,6 +19,14 @@ environment ENV.fetch("RAILS_ENV") { "development" }
 # Specifies the `pidfile` that Puma will use.
 pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
+on_worker_boot do
+    ActiveRecord::Base.establish_connection
+  
+    if defined?(Resque)
+       Resque.redis = ENV["<redis-uri>"] || "redis://127.0.0.1:6379"
+    end
+end
+
 # Specifies the number of `workers` to boot in clustered mode.
 # Workers are forked web server processes. If using threads and workers together
 # the concurrency of the application would be max `threads` * `workers`.
@@ -36,3 +44,5 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
 # Allow puma to be restarted by `rails restart` command.
 plugin :tmp_restart
+
+
