@@ -9,7 +9,5 @@
     <%= link_to t('items.download_as_pdf'), items_path(format: :pdf), class: "btn btn-outline-primary" %>
   <% end %>
   <%= link_to t('items.upload_from_excel'), new_items_import_path, class: "btn btn-outline-primary" %>
-  <%= link_to t('items.new_item'), new_item_path, class: "btn btn-outline-primary" %>
-
   <%= render partial: "items_listing"%>
 </div>
